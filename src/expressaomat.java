@@ -8,7 +8,7 @@ public class expressaomat {
         if(x == 5){
             System.out.println("Não existe divisão por 0");
         }
-        if(x <= 4){
+        if( x <= 4 && x>= -5){
             System.out.println("Não existe divisão por Negativo");
         }
         else{
