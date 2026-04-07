@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class compra {
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
-        System.out.printf("Digite o preço da compra: ");
+        System.out.println("Digite o preço da compra: ");
         double cmp = scn.nextDouble();
         if (cmp > 1000){
             System.out.println("VocÊ recebeu 15% de desconto");
