@@ -10,10 +10,10 @@ public class turno {
         if (turno.equals("manha")){
             System.out.println("Você é fudido e estuda das 7:00 às 12:00");
 
-        } else if (turno.equals("tarde")) {
+        } else if (turno.equalsIgnoreCase("tarde")) {
             System.out.println("Você estuda das 13:00 às 18:00");
 
-        } else if (turno.equals("noite")) {
+        } else if (turno.equalsIgnoreCase("noite")) {
             System.out.println("Você é sigma e estuda das 19:00 às 23:00");
 
         }
